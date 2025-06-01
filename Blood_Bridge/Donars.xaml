@@ -1,0 +1,85 @@
+﻿<Window x:Class="Blood_Bridge.Donars"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Blood_Bridge"
+        mc:Ignorable="d"
+        Title="Donars" Height="450" Width="800"
+        WindowStartupLocation="CenterScreen">
+    <Grid>
+        <Label Content="              Edit Donars" FontSize="30" Foreground="red" FontWeight="Bold" HorizontalAlignment="Center"  VerticalAlignment="Top" Height="81" Width="400"/>
+        <StackPanel Margin="20 40 20 20">
+
+            <StackPanel Orientation="Horizontal">
+
+                <StackPanel Orientation="Vertical" Margin="10">
+
+                    <StackPanel Orientation="Horizontal" Margin="0,5">
+                        <Label Content="Name" FontSize="14" VerticalAlignment="Center" Width="100" />
+                        <TextBox x:Name="txtName" Width="250" />
+                    </StackPanel>
+
+
+
+
+
+
+
+                    <StackPanel Orientation="Horizontal" Margin="0,5">
+                        <Label Content="Blood Type" FontSize="14" VerticalAlignment="Center" Width="100" />
+                        <TextBox x:Name="txtBloodType" Width="250"/>
+                    </StackPanel>
+
+
+
+                </StackPanel>
+                <StackPanel Orientation="Vertical" Margin="10">
+
+                    <StackPanel Orientation="Horizontal" Margin="0,5">
+                        <Label Content="Contact No" FontSize="14" VerticalAlignment="Center" Width="100" />
+                        <TextBox x:Name="txtContact" Width="250"/>
+                    </StackPanel>
+
+
+
+                    <StackPanel Orientation="Horizontal" Margin="0,5">
+                        <Label Content="Address" FontSize="14" VerticalAlignment="Center" Width="100" />
+                        <TextBox x:Name="txtAddress" Width="250"/>
+                    </StackPanel>
+
+
+
+
+
+
+
+                </StackPanel>
+            </StackPanel>
+        </StackPanel>
+
+        <Button Content="Cancel" Foreground="White" Background="red" FontWeight="Bold" Width="100" Height="40" Margin="650,350,0,0" HorizontalAlignment="Left" Click="Cancel"/>
+        <Button Content="Add Donor" Foreground="White" Background="red" FontWeight="Bold" Width="100" Height="40" Margin="50,350,0,0" HorizontalAlignment="Left" Click="OnAddDonor"/>
+        <Button Content="Update Donor" Foreground="White" Background="red" FontWeight="Bold" Width="100" Height="40" Margin="200,350,0,0" HorizontalAlignment="Left" Click="OnUpdateDonar"/>
+        <Button Content="Delete Donor" Foreground="White" Background="red" FontWeight="Bold" Width="100" Height="40" Margin="350,350,0,0" HorizontalAlignment="Left" Click="OnDeleteDonor"/>
+        <Button Content="Donor Details" Foreground="White" Background="red" FontWeight="Bold" Width="100" Height="40" Margin="500,350,0,0" HorizontalAlignment="Left" Click="DonarDetails" />
+
+        <!-- 
+             <ListBox x:Name="lstDonors" HorizontalAlignment="Left" VerticalAlignment="Top" Width="600" Height="100" Margin="10,200,0,0"/>
+              -->
+
+        <DataGrid x:Name="donorGrid" Margin="66,181,66,67" 
+                       AutoGenerateColumns="False" SelectionChanged="donorGrid_SelectionChanged">
+            <DataGrid.Columns>
+                <DataGridTextColumn Header="ID" Binding="{Binding DonorID}" Width="50"/>
+                <DataGridTextColumn Header="Name" Binding="{Binding Name}" Width="150"/>
+                <DataGridTextColumn Header="Blood Type " Binding="{Binding BloodType}" Width="100"/>
+                <DataGridTextColumn Header="Contact No" Binding="{Binding Contact}" Width="150"/>
+                <DataGridTextColumn Header="Address" Binding="{Binding Address}" Width="200"/>
+
+
+            </DataGrid.Columns>
+        </DataGrid>
+
+    </Grid>
+</Window>

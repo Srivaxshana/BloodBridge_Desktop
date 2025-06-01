@@ -1,0 +1,36 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\MY PC\\OneDrive\\Documents\\GitHub\\BloodBridge_Desktop\\BloodBridge_Desktop\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{AC53BF4E-E0B1-4EA0-B7F4-448C814B2E81}|Blood_Bridge\\Blood_Bridge.csproj|c:\\users\\my pc\\onedrive\\documents\\github\\bloodbridge_desktop\\bloodbridge_desktop\\blood_bridge\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{AC53BF4E-E0B1-4EA0-B7F4-448C814B2E81}|Blood_Bridge\\Blood_Bridge.csproj|solutionrelative:blood_bridge\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "MainWindow.xaml",
+              "DocumentMoniker": "C:\\Users\\MY PC\\OneDrive\\Documents\\GitHub\\BloodBridge_Desktop\\BloodBridge_Desktop\\Blood_Bridge\\MainWindow.xaml",
+              "RelativeDocumentMoniker": "Blood_Bridge\\MainWindow.xaml",
+              "ToolTip": "C:\\Users\\MY PC\\OneDrive\\Documents\\GitHub\\BloodBridge_Desktop\\BloodBridge_Desktop\\Blood_Bridge\\MainWindow.xaml",
+              "RelativeToolTip": "Blood_Bridge\\MainWindow.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-06-01T18:42:50.494Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
