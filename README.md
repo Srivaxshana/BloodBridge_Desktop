@@ -3,7 +3,7 @@ It is a C# desktop application for a Blood Bank Management System, designed to e
 This system helps manage blood donors and blood stock efficiently with a simple, user-friendly interface.
 
 
-**🚀 Features**
+## 🚀 Features
 
 🔑 Admin login (only admin can add/edit data)
 
@@ -16,7 +16,7 @@ This system helps manage blood donors and blood stock efficiently with a simple,
 💾 SQLite database integration 
 
 
-**🛠️ Tech Stack**
+## 🛠️ Tech Stack
 
 Programming Language: C#
 
@@ -24,3 +24,21 @@ GUI Framework:  WPF
 
 Database: SQLite
 
+
+
+## 📸 Screenshots
+
+### Home Page
+![Home](https://github.com/Srivaxshana/BloodBridge_Desktop/blob/main/Blood_Bridge/Images/Home.png)
+
+###  Admin Login  
+![Admin Login](https://github.com/Srivaxshana/BloodBridge_Desktop/blob/main/Blood_Bridge/Images/Login.png)
+
+### Dashboard
+![Dashboard](https://github.com/Srivaxshana/BloodBridge_Desktop/blob/main/Blood_Bridge/Images/Dashboard.png)
+
+### Donar
+![Donar](https://github.com/Srivaxshana/BloodBridge_Desktop/blob/main/Blood_Bridge/Images/Edit%20donars%20.png)
+
+### Blood
+![Blood](https://github.com/Srivaxshana/BloodBridge_Desktop/blob/main/Blood_Bridge/Images/Blood%20details.png)
