@@ -3,35 +3,35 @@ BloodBridge_Desktop is a C#-based desktop application for managing a Blood Bank 
 
 <br><br>
 
-**🚀Key Features**
+## **🚀Key Features**
 
-🔑 Secure Admin Login
+### 🔑 Secure Admin Login
 
   Only authorized admin users can log in and perform data operations.
   
   Protects sensitive donor and blood stock information.
 
-🧑‍🤝‍🧑 Donor Management
+### 🧑‍🤝‍🧑 Donor Management
 
   Add new donor records.
   
   Update or edit donor information.
   
 
-🩸 Blood Stock Management
+### 🩸 Blood Stock Management
 
   Add blood stock details (blood group, quantity).
   
   Update or edit stock information.
 
 
-🖥️ Simple & User-Friendly Interface
+### 🖥️ Simple & User-Friendly Interface
 
   Built with WPF for a clean and modern look.
   
   Easy navigation with intuitive menus and forms.
 
-💾 SQLite Database Integration
+### 💾 SQLite Database Integration
 
   Lightweight and fast database system.
   
@@ -40,7 +40,7 @@ BloodBridge_Desktop is a C#-based desktop application for managing a Blood Bank 
 
 <br><br>
 
-**🛠️ Tech Stack**
+## **🛠️ Tech Stack**
 
 Programming Language: C#
 
@@ -49,7 +49,7 @@ GUI Framework:  WPF
 Database: SQLite
 <br><br>
 
-**📸ScreenShots of Project**
+## **📸ScreenShots of Project**
 
 ![Home](https://github.com/Srivaxshana/BloodBridge_Desktop/blob/main/Blood_Bridge/Images/Home.png)
 ![Login](https://github.com/Srivaxshana/BloodBridge_Desktop/blob/main/Blood_Bridge/Images/Login.png)
