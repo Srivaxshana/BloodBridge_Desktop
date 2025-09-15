@@ -29,9 +29,8 @@ namespace Blood_Bridge
         private void LoadDonorData()
         {
             List<Donar> donors = dbHelper.GetAllDonors();
-            donorGrid.ItemsSource = donors; // Load data into DataGrid
-          
-           
+            donorGrid.ItemsSource = donors; 
+            
         }
 
         private void Close_Click(object sender, RoutedEventArgs e)

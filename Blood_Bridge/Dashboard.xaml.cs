@@ -19,12 +19,9 @@ namespace Blood_Bridge
  
     public partial class Dashboard : Window
     {
-       
-       
                 public Dashboard()
                 {
                     InitializeComponent();
-                    
 
                 }
   
@@ -32,14 +29,10 @@ namespace Blood_Bridge
         {
             OptionPopup.IsOpen = !OptionPopup.IsOpen;
         }
-    
-
          private void Edit(object sender, RoutedEventArgs e)
          {
             Donars DonarWindow = new Donars();
             DonarWindow.ShowDialog();
-  
-
          }
  
 
@@ -47,7 +40,7 @@ namespace Blood_Bridge
          {
             DonarList donorListWindow = new DonarList();
             donorListWindow.Show();
-        }
+         }
         
 
         private void Blood(object sender, RoutedEventArgs e)
@@ -67,8 +60,7 @@ namespace Blood_Bridge
         {
             Login loginWindow = new Login();
             loginWindow.Show();
-
-            
+           
             this.Close();
         }
 

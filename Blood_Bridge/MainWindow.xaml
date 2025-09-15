@@ -13,69 +13,46 @@
     <Grid>
 
         <ContentControl x:Name="MainContent" />
-
-
         <StackPanel Orientation="Vertical">
-
-
-
             <StackPanel Orientation="Horizontal"
                         Background="#FFE64C4C"
                         Height="101" Width="920">
 
-                <Image Source="E:\acadamic\Mine\Projects\3.GUI - Blood Bridge Desktop\Blood_Bridge\Blood_Bridge\Images\logo.png"
+                <Image Source="C:\Users\MY PC\OneDrive\Documents\GitHub\BloodBridge_Desktop\BloodBridge_Desktop\Blood_Bridge\Images\logo.png"
                      Width="99"
                      Height="93"
                      Margin="05"/>
-
-
                 <Label  Margin="100 5 5 5" FontSize="40"  FontWeight="Bold" Foreground="white" Width="313" Height="67"> BloodBridge</Label>
-
-
-
-
 
                 <Button Padding="20 0"
                      Margin="200 25 25 25"
                      FontSize="20"  FontWeight="Bold" Background="#FFE64C4C"
                      Foreground="white" Content="Login" Click="login">
                 </Button>
-
-             
-
-
-
             </StackPanel>
 
             <StackPanel Orientation="Horizontal"
                
                         Height="Auto">
-                <Image Source="E:\acadamic\Mine\Projects\3.GUI - Blood Bridge Desktop\Blood_Bridge\Blood_Bridge\Images\Background.jpg" Height="300" Width="880" 
+                <Image Source="C:\Users\MY PC\OneDrive\Documents\GitHub\BloodBridge_Desktop\BloodBridge_Desktop\Blood_Bridge\Images\Background.jpg" Height="430" Width="880" 
                        />
             </StackPanel>
+            <!--
             <StackPanel Orientation="Horizontal"
-                Height="155">
+                Height="155" Width="871">
                 <StackPanel Orientation="Vertical"
-                                 Background="#FFF0CDCD">
-                    <Image Source="E:\acadamic\Mine\Projects\3.GUI - Blood Bridge Desktop\Blood_Bridge\Blood_Bridge\Images\Code.png"
-                            Width="434"
-                            Height="152"
+                                 Background="#FFE3E3">
+                    <Image Source="C:\Users\MY PC\OneDrive\Documents\GitHub\BloodBridge_Desktop\BloodBridge_Desktop\Blood_Bridge\Images\Code.png"
+                            Width="1002"
+                            Height="129"
                             />
                 </StackPanel>
                 <StackPanel Orientation="Vertical"
-                            Background="#FFF0CDCD">
-                    <TextBlock Padding="05 5"
-                        FontSize="25" Width="485" Height="152"><Run Text="077 753612"/><LineBreak/><Run Text="contact@bloodbridge.com"/><LineBreak/><Run Text="Kilinochchi, SriLanka."/><LineBreak/><InlineUIContainer>
-                            <TextBlock FontSize="20"><Run Text="Copyright ; 2025 | Srivaxsha | All rights reserved       "/></TextBlock>
-                        </InlineUIContainer></TextBlock>
-
-                </StackPanel>
+                            Background="#FFF0CDCD" />
             </StackPanel>
-
+            -->
+            
         </StackPanel>
-
-       
-
 
     </Grid>
 </Window>

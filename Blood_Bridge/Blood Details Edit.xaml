@@ -25,15 +25,13 @@
         </StackPanel>
         <!--  <ListBox x:Name="BloodList" SelectionChanged="OnBloodSelectionChanged" Width="300" Margin="50,151,50,84"  />  -->
 
-        <DataGrid x:Name="bloodGrid" Margin="119,143,118,155" 
+        <DataGrid x:Name="bloodGrid" Margin="134,143,134,155" 
                  AutoGenerateColumns="False" SelectionChanged="bloodGrid_SelectionChanged">
             <DataGrid.Columns>
 
 
                 <DataGridTextColumn Header="Blood Type " Binding="{Binding BloodType}" Width="90"/>
                 <DataGridTextColumn Header="Quantity" Binding="{Binding Quantity}" Width="90"/>
-
-
 
             </DataGrid.Columns>
         </DataGrid>

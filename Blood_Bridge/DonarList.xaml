@@ -11,7 +11,7 @@
 
         <Label Content="           Donars Details" FontSize="30" Foreground="red" FontWeight="Bold" HorizontalAlignment="Center"  VerticalAlignment="Top" Height="81" Width="400"/>
         <DataGrid x:Name="donorGrid" AutoGenerateColumns="True"
-                  Margin="110,83,137,83"/>
+                  Margin="142,81,142,85" RenderTransformOrigin="0.5,0.5"/>
         <!--
         <DataGrid x:Name="donorGrid">
         <DataGrid.Columns>

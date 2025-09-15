@@ -70,8 +70,6 @@ namespace Blood_Bridge
             LoadDonors();
             MessageBox.Show("Donor added successfully!");
         }
-
-
         private void OnUpdateDonar(object sender, RoutedEventArgs e)
         {
             if (selectedDonor != null)
@@ -106,7 +104,6 @@ namespace Blood_Bridge
             }
         
         }
-
         private void DonarDetails(object sender, RoutedEventArgs e)
         {
             DonarList donorListWindow = new DonarList();

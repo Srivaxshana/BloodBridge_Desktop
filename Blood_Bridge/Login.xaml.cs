@@ -46,40 +46,17 @@ namespace Blood_Bridge
                 }
             }
         }
-
             public void GrantAccess()
         {
-            //Dashboard dashboardWindow = new Dashboard();
-            //dashboardWindow.ShowDialog();
+         
             Dashboard main=new Dashboard();
             main.Show();
         }
-
-        /*  string username = txtUserName.Text;
-         string password = txtPassword.Password;
-        if (username == "sri" && password == "789")
-         {
-             MessageBox.Show("Login Successful!", "Success", MessageBoxButton.OK, MessageBoxImage.Information);
-
-             Dashboard DashboardWindow = new Dashboard();
-             DashboardWindow.ShowDialog();
-             this.Close();
-         }
-         else
-         {
-             MessageBox.Show("Invalid Username or Password", "Error", MessageBoxButton.OK, MessageBoxImage.Error);
-         }
-
-
-    }
-        */
 
         private void close(object sender, RoutedEventArgs e)
         {
             this.Close();
         }
-
-     
     }
 }
 

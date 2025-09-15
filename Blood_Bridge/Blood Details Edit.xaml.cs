@@ -15,9 +15,7 @@ using System.Xml.Linq;
 
 namespace Blood_Bridge
 {
-    /// <summary>
-    /// Interaction logic for Blood_Details_Edit.xaml
-    /// </summary>
+
     public partial class Blood_Details_Edit : Window
     {
         private DataBaseHelper _databaseHelper = new DataBaseHelper();
@@ -28,17 +26,6 @@ namespace Blood_Bridge
             InitializeComponent();
             LoadBloodDetails();
         }
-
-        /*  private void LoadBloodDetails()
-          {
-              BloodList.Items.Clear();
-              List<Blood_details> bloodDetails = _databaseHelper.GetBloodDetails();
-              foreach (var blood in bloodDetails)
-              {
-                  BloodList.Items.Add($"{blood.BloodType} - {blood.Quantity} units");
-              }
-          }
-        */
         private void LoadBloodDetails()
         {
             bloodGrid.ItemsSource = _databaseHelper.GetBloodDetails();
@@ -58,14 +45,6 @@ namespace Blood_Bridge
                 MessageBox.Show("Invalid quantity");
                 return;
             }
-
-            /* string bloodType = BloodTypeTextBox.Text;
-             if (!int.TryParse(QuantityTextBox.Text, out int quantity))
-             {
-                 MessageBox.Show("Invalid quantity");
-                 return;
-             }
-            */
             _databaseHelper.AddOrUpdateBloodDetail(bloodType, quantity);
             LoadBloodDetails();
             MessageBox.Show("Blood record added/updated successfully!");
@@ -82,47 +61,8 @@ namespace Blood_Bridge
             _selectedBloodType = string.Empty;
             LoadBloodDetails();
               MessageBox.Show("Blood record deleted successfully!");
-            
-                              /*  if (string.IsNullOrWhiteSpace(_selectedBloodType))
-                                {
-                                    MessageBox.Show("Please select a blood record to delete.");
-                                    return;
-                                }
-
-                                _databaseHelper.DeleteBloodDetail(_selectedBloodType);
-                                _selectedBloodType = string.Empty;
-                                LoadBloodDetails();
-                                MessageBox.Show("Blood record deleted successfully!");
-                              */
-
-            
-
-
-
-          
+ 
         }
-
-
-        /* private void OnBloodSelectionChanged(object sender, System.Windows.Controls.SelectionChangedEventArgs e)
-         {
-             if (bloodGrid.SelectedItem is Blood_details selectedBlood)
-             {
-                 BloodTypeTextBox.Text = selectedBlood.BloodType;
-                 QuantityTextBox.Text = selectedBlood.Quantity.ToString();
-                 _selectedBloodType = selectedBlood.BloodType;
-             }
-             /* if (BloodList.SelectedItem != null)
-              {
-                  string selectedText = BloodList.SelectedItem.ToString();
-                  string[] parts = selectedText.Split('-');
-                  if (parts.Length > 1)
-                  {
-                      _selectedBloodType = parts[0].Trim();
-                  }
-              }
-         }
-
-             */
 
         private void Cancel(object sender, RoutedEventArgs e)
         {

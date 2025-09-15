@@ -16,14 +16,12 @@
 
         <StackPanel Orientation="Vertical">
 
-
-
             <StackPanel Orientation="Horizontal"
                         Background="#FFE64C4C"
                         Height="101" Width="890">
 
 
-                <Image Source="E:\acadamic\Mine\Projects\3.GUI - Blood Bridge Desktop\Blood_Bridge\Blood_Bridge\Images\logo.png"
+                <Image Source="C:\Users\MY PC\OneDrive\Documents\GitHub\BloodBridge_Desktop\BloodBridge_Desktop\Blood_Bridge\Images\logo.png"
                      Width="99"
                      Height="93"
                      Margin="05"/>
@@ -36,88 +34,56 @@
                 <StackPanel Orientation="Vertical"
                     Height="Auto">
 
-                    <Button Padding="15 0"
+                    <Button Padding="20 20"
                      Margin="20 35 20 20"
                      FontSize="20"  
                      Background="#FFE64C4C"
                      Foreground="white">Dashboard</Button>
-
-
-                <StackPanel>
-                <Button Padding="15 0"
+                    <StackPanel>
+                        <Button Padding="20 20"
                      Margin="20 20"
                      FontSize="20"  
                      Background="#FFE64C4C"
-                     Foreground="white" Click="Donar">Donar</Button>
-                
+                     Foreground="white" Click="Donar" Content="Donar"/>
 
-                    <Popup Name="OptionPopup" Placement="Center"
+
+                        <Popup x:Name="OptionPopup" Placement="Center"
                          PlacementTarget="{Binding ElementName=Donar}" StaysOpen="False" Margin="20 20 20 20">
-                        <Border Background="LightGray" Padding="0" CornerRadius="5" >
-                            <StackPanel>
+                            <Border Background="LightGray" Padding="0" CornerRadius="5" >
+                                <StackPanel>
                                     <Button Content="Edit Donar"  FontSize="15"  
                                         Background="#FFE64C4C"
                                         Foreground="white" Width="150"   Click="Edit"/>
                                     <Button Content="All Donars" FontSize="15"  
                                         Background="#FFE64C4C"
                                         Foreground="white"  Width="150" Click="AllDonarDetails"/>
-                            </StackPanel>
-                        </Border>
-                    </Popup>
-                 </StackPanel>
+                                </StackPanel>
+                            </Border>
+                        </Popup>
+                    </StackPanel>
 
-
-
-
-                    <Button Padding="15 0"
+                    <Button Padding="20 20"
                      Margin="20 20"
                      FontSize="20"  
                      Background="#FFE64C4C"
                      Foreground="white" Click="Blood">Blood Details</Button>
 
-                  
-
-
-
-                    <Button Padding="15 0"
+                    <Button Padding="20 20"
                      Margin="20 20"
                      FontSize="20"  
                      Background="#FFE64C4C"
                      Foreground="white" Click="Logout">Log out</Button>
-
-
                 </StackPanel>
 
                 <StackPanel Orientation="Vertical"
                 Height="Auto">
-                    <Image Source="E:\acadamic\Mine\Projects\3.GUI - Blood Bridge Desktop\Blood_Bridge\Blood_Bridge\Images\Background.jpg" Height="300" Width="690"  />
-                 
+                    <Image Source="C:\Users\MY PC\OneDrive\Documents\GitHub\BloodBridge_Desktop\BloodBridge_Desktop\Blood_Bridge\Images\Background.jpg" Height="431" Width="690"  />
+
                 </StackPanel>
 
             </StackPanel>
-            <StackPanel Orientation="Horizontal"
-                Height="155">
-                <StackPanel Orientation="Vertical"
-                                 Background="#FFF0CDCD">
-                    <Image Source="E:\acadamic\Mine\Projects\3.GUI - Blood Bridge Desktop\Blood_Bridge\Blood_Bridge\Images\Code.png"
-                            Width="434"
-                            Height="136"
-                            />
-                </StackPanel>
-                <StackPanel Orientation="Vertical"
-                            Background="#FFF0CDCD">
-                    <TextBlock Padding="05 5"
-                        FontSize="25" Width="456" Height="152"><Run Text="077 753612"/><LineBreak/><Run Text="contact@bloodbridge.com"/><LineBreak/><Run Text="Kilinochchi, SriLanka."/><LineBreak/><InlineUIContainer>
-                            <TextBlock FontSize="20"><Run Text="Copyright ; 2025 | Srivaxsha | All rights reserved"/></TextBlock>
-                        </InlineUIContainer></TextBlock>
 
-                </StackPanel>
-                
-            </StackPanel>
-      
         </StackPanel>
-        
-
 
     </Grid>
 </Window>
